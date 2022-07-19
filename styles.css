@@ -1,0 +1,115 @@
+/*----------
+   banner
+----------*/
+.top-view {
+    background-color: black;
+    border-radius: 30px;
+    margin: 5px 100px;
+    display: flex;
+
+}
+
+.banner-text {
+    color: white;
+    padding: 5%;
+    width: 50%;
+}
+
+.banner-img-div {
+    position: relative;
+    padding: 0% 5%;
+    width: 50%;
+
+}
+
+
+.banner-img {
+    position: absolute;
+    bottom: 0px;
+    height: 90%;
+
+}
+
+
+
+
+
+h1 {
+    font-size: 80px;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+
+
+/*------------
+   Button
+------------*/
+.main-section {
+    display: flex;
+    margin: 40px 100px;
+}
+
+.all-ancors {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 25%;
+    height: fit-content;
+    border-color: black;
+    border-style: solid;
+}
+
+.ancor-body {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+.ancor-text {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+/*---------------
+   All Blogs
+----------------*/
+
+.all-blogs {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-left: 20px;
+}
+
+.blog {
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.blogs-ancor {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.blog-info {}
+
+.blog-title {}
