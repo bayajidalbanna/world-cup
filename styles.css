@@ -1,12 +1,59 @@
+/*--------------
+    animation
+---------------*/
+
+@keyframes right-ball {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -3%;
+    }
+}
+
+@keyframes laft-ball {
+    0% {
+        left: -3%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.right-ball {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    animation: right-ball 3000ms ease-in-out 0.5s alternate infinite;
+    animation-play-state: running;
+}
+
+.laft-ball {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    animation: laft-ball 3000ms ease-in-out 0.5s alternate infinite;
+    animation-play-state: running;
+}
+
 /*----------
    banner
 ----------*/
-.top-view {
-    background-color: #740624;
-    border-radius: 30px;
-    margin: 5px 100px;
-    display: flex;
 
+.banner-section {
+    background-color: #740624;
+    border-radius: 20px;
+    margin: 5px 100px;
+}
+
+.top-view {
+    display: flex;
 }
 
 .banner-text {
@@ -55,11 +102,6 @@ p {
 
 
 
-
-
-
-
-
 /*---------------
    ANCOR DIVITION
 ---------------*/
@@ -94,7 +136,15 @@ p {
     background-color: lightgreen;
 }
 
-.ancor-text {
+.ancor-body-selected {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+.ancor-text,
+.ancor-text-selected {
     font-size: 40px;
     text-decoration: none;
     color: black;
@@ -104,6 +154,7 @@ p {
 .ancor-text:hover {
     font-size: 45px;
 }
+
 
 /*---------------
    All Blogs
@@ -154,7 +205,8 @@ p {
     margin-bottom: 5px;
 }
 
-.blog-info {}
+/* 
+.blog-info {} */
 
 .blog-title {
     font-size: 30px;
@@ -174,7 +226,7 @@ p {
 -------------------*/
 
 footer {
-    background-color: rgb(155, 153, 57);
+    background-color: #740624;
 
 }
 
@@ -200,12 +252,14 @@ footer {
     width: 40px;
     margin-left: 10px;
     margin-left: 20px;
+    color: rgb(255, 255, 255);
 }
+
 
 .fot-hr {
     height: 1px;
-    margin: 0px 250px;
-    background-color: #3f3d3d8f;
+    margin: 10px 250px;
+    background-color: white;
     border: none;
 }
 
