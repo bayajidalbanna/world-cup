@@ -146,8 +146,7 @@ p {
     margin: 10px 5px;
 }
 
-.ancor-text,
-.ancor-text-selected {
+.ancor-text {
     font-size: 40px;
     text-decoration: none;
     color: black;
