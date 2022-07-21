@@ -220,6 +220,15 @@ p {
     font-size: 20px;
 }
 
+.blog-icon {
+    display: flex;
+    gap: 10px;
+    width: 40px;
+    margin-left: 10px;
+    margin-left: 20px;
+    color: black;
+}
+
 /*-------------------
    FOOTER SECTION
 -------------------*/
@@ -280,20 +289,24 @@ footer {
    Media Queries
 -----------------*/
 
-/* Mobile Divices */
+/* ------------------------
+        Mobile Divices
+---------------------------*/
+
+
 @media only screen and (max-width: 688px) {
     /*--------------------
         banner-section
     --------------------*/
 
     .banner-section {
-        background-color: #740624;
         width: 80%;
         margin: 5px 35px;
     }
 
     .top-view {
-        display: inline;
+        display: flex;
+        flex-direction: column;
     }
 
     .banner-text {
